@@ -1,0 +1,23 @@
+{
+  "name": "hello_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/graphql": "^0.10.0",
+    "@types/koa": "^2.0.39",
+    "@types/koa-mount": "^2.0.18",
+    "@types/sqlite3": "^3.1.0",
+    "graphql": "^0.10.5",
+    "koa": "^2.3.0",
+    "koa-graphql": "^0.7.1",
+    "koa-mount": "^3.0.0",
+    "sqlite3": "^3.1.8"
+  }
+}
